@@ -6,3 +6,6 @@ class Coupon(models.Model):
     discount = models.DecimalField(max_digits=5, decimal_places=2)
     isValid=models.BooleanField(True)
     expiration_date = models.DateField()
+
+    def __str__(self):
+        return self.code
