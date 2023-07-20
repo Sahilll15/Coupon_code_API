@@ -1,0 +1,42 @@
+# Python virtual environment directory
+venv/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Pipenv or virtualenv lock file
+Pipfile.lock
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# API keys, credentials, and secret files
+.env
+.env.*
+.secret
+
+# SQLite database file
+db.sqlite3
+
+# Configuration files
+config.ini
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Static files collected by Django
+staticfiles/
+
+# Media files uploaded by users
+media/
