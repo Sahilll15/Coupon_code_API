@@ -1,0 +1,1 @@
+web : gunicorn coupon_code_app.wsgi --log-file -
